@@ -8,10 +8,10 @@
 </template>
 
 <script>
-import Video1 from "@/views/alem-de-estar/Video.vue";
-import Video2 from "@/views/alem-do-som/Video.vue";
-import Video3 from "@/views/alem-do-mar/Video.vue";
-import Video4 from "@/views/alem-das-memorias/Video.vue";
+import Video1 from "@/views/alem-de-estar/videos/Video.vue";
+import Video2 from "@/views/alem-do-som/videos/Video.vue";
+import Video3 from "@/views/alem-do-mar/videos/Video.vue";
+import Video4 from "@/views/alem-das-memorias/videos/Video.vue";
 
 export default {
   name: "VideoPages",

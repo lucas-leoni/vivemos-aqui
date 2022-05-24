@@ -40,15 +40,15 @@
 </template>
 
 <script>
-import Subtitle1 from "@/views/alem-de-estar/Subtitle.vue";
-import TextColumn1 from "@/views/alem-de-estar/TextColumn1.vue";
-import TextColumn2 from "@/views/alem-de-estar/TextColumn2.vue";
-import Subtitle2 from "@/views/alem-do-som/Subtitle.vue";
-import TextColumn3 from "@/views/alem-do-som/TextColumn1.vue";
-import TextColumn4 from "@/views/alem-do-som/TextColumn2.vue";
-import Subtitle3 from "@/views/alem-do-mar/Subtitle.vue";
-import TextColumn5 from "@/views/alem-do-mar/TextColumn1.vue";
-import TextColumn6 from "@/views/alem-do-mar/TextColumn2.vue";
+import Subtitle1 from "@/views/alem-de-estar/texts/Subtitle.vue";
+import TextColumn1 from "@/views/alem-de-estar/texts/TextColumn1.vue";
+import TextColumn2 from "@/views/alem-de-estar/texts/TextColumn2.vue";
+import Subtitle2 from "@/views/alem-do-som/texts/Subtitle.vue";
+import TextColumn3 from "@/views/alem-do-som/texts/TextColumn1.vue";
+import TextColumn4 from "@/views/alem-do-som/texts/TextColumn2.vue";
+import Subtitle3 from "@/views/alem-do-mar/texts/Subtitle.vue";
+import TextColumn5 from "@/views/alem-do-mar/texts/TextColumn1.vue";
+import TextColumn6 from "@/views/alem-do-mar/texts/TextColumn2.vue";
 
 export default {
   name: "TextPages",

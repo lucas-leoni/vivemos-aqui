@@ -1,25 +1,22 @@
 <template>
   <div>
     <NavbarFixed />
-    <VideoPages />
-    <VideoYtPages />
-    <TextPages />
+    <Videos />
+    <Texts />
   </div>
 </template>
 
 <script>
 import NavbarFixed from "@/components/commom/NavbarFixed.vue";
-import VideoPages from "@/components/commom/VideoPages.vue";
-import VideoYtPages from "@/components/commom/VideoYtPages.vue";
-import TextPages from "@/components/commom/TextPages.vue";
+import Videos from "@/views/alem-do-mar/videos/Videos.vue";
+import Texts from "@/views/alem-do-mar/texts/Texts.vue";
 
 export default {
   name: "AlemDoMarView",
   components: {
     NavbarFixed,
-    VideoPages,
-    VideoYtPages,
-    TextPages,
+    Videos,
+    Texts,
   },
 };
 </script>

@@ -7,9 +7,9 @@
 </template>
 
 <script>
-import VideoYt1 from "@/views/alem-de-estar/VideoYt.vue";
-import VideoYt2 from "@/views/alem-do-som/VideoYt.vue";
-import VideoYt3 from "@/views/alem-do-mar/VideoYt.vue";
+import VideoYt1 from "@/views/alem-de-estar/videos/VideoYt.vue";
+import VideoYt2 from "@/views/alem-do-som/videos/VideoYt.vue";
+import VideoYt3 from "@/views/alem-do-mar/videos/VideoYt.vue";
 
 export default {
   name: "VideoYtPages",

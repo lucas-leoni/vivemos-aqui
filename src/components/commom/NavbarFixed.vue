@@ -5,7 +5,7 @@
         <img src="../../assets/images/logo.png" />
       </router-link>
     </div>
-    <div class="col-7">
+    <div class="col-7 pr-4">
       <button
         class="navbar-toggler"
         type="button"
@@ -38,14 +38,16 @@
           </li>
           <li class="nav-item px-3">
             <router-link
+              @click.native="scrollToTop()"
               to="/alem-de-estar"
               v-bind:id="alemDeEstarBorder()"
               class="nav-link"
-              >ALÉM DE ESTAR</router-link
-            >
+              >ALÉM DE ESTAR
+            </router-link>
           </li>
           <li class="nav-item px-3">
             <router-link
+              @click.native="scrollToTop()"
               to="/alem-do-som"
               v-bind:id="alemDoSomBorder()"
               class="nav-link"
@@ -54,6 +56,7 @@
           </li>
           <li class="nav-item px-3">
             <router-link
+              @click.native="scrollToTop()"
               to="/alem-do-mar"
               v-bind:id="alemDoMarBorder()"
               class="nav-link"
@@ -62,6 +65,7 @@
           </li>
           <li class="nav-item px-3">
             <router-link
+              @click.native="scrollToTop()"
               to="alem-das-memorias"
               v-bind:id="alemDasMemoriasBorder()"
               class="nav-link"
@@ -70,6 +74,7 @@
           </li>
           <li class="nav-item px-3">
             <router-link
+              @click.native="scrollToTop()"
               to="/o-projeto"
               v-bind:id="oProjetoBorder()"
               class="nav-link"
@@ -111,6 +116,9 @@ export default {
         return "border";
       }
     },
+    scrollToTop() {
+      window.scrollTo(0, 0);
+    },
   },
 };
 </script>
@@ -133,7 +141,7 @@ export default {
     border: none;
   }
   .navbar {
-    padding: 0.5rem 0rem 0.5rem 0rem !important;
+    padding: 1rem 0rem 0.5rem 0rem !important;
   }
   svg {
     fill: black;
