@@ -3,35 +3,40 @@
     <div class="container d-flex justify-content-center flex-column px-0">
       <div class="row justify-content-between">
         <div class="col">
-          <Subtitle1 v-if="alemDeEstar()" />
-          <Subtitle2 v-if="alemDoSom()" />
-          <Subtitle3 v-if="alemDoMar()" />
+          <Subtitle1 v-if="nossaCasa()" />
+          <Subtitle2 v-if="nossaGente()" />
+          <Subtitle3 v-if="nossaFe()" />
+          <Subtitle4 v-if="nossaLuta()" />
         </div>
         <div id="esconder" class="col"></div>
       </div>
       <div class="row justify-content-between mt-3">
         <div class="col-5">
           <p class="text-justify">
-            <TextColumn1 v-if="alemDeEstar()" />
-            <TextColumn3 v-if="alemDoSom()" />
-            <TextColumn5 v-if="alemDoMar()" />
+            <TextColumn1 v-if="nossaCasa()" />
+            <TextColumn3 v-if="nossaGente()" />
+            <TextColumn5 v-if="nossaFe()" />
+            <TextColumn7 v-if="nossaLuta()" />
           </p>
         </div>
         <div class="col-5">
           <p class="text-justify">
-            <TextColumn2 v-if="alemDeEstar()" />
-            <TextColumn4 v-if="alemDoSom()" />
-            <TextColumn6 v-if="alemDoMar()" />
+            <TextColumn2 v-if="nossaCasa()" />
+            <TextColumn4 v-if="nossaGente()" />
+            <TextColumn6 v-if="nossaFe()" />
+            <TextColumn8 v-if="nossaLuta()" />
           </p>
         </div>
         <div id="coluna-mobile" class="col">
           <p class="text-justify">
-            <TextColumn1 v-if="alemDeEstar()" />
-            <TextColumn2 v-if="alemDeEstar()" />
-            <TextColumn3 v-if="alemDoSom()" />
-            <TextColumn4 v-if="alemDoSom()" />
-            <TextColumn5 v-if="alemDoMar()" />
-            <TextColumn6 v-if="alemDoMar()" />
+            <TextColumn1 v-if="nossaCasa()" />
+            <TextColumn2 v-if="nossaCasa()" />
+            <TextColumn3 v-if="nossaGente()" />
+            <TextColumn4 v-if="nossaGente()" />
+            <TextColumn5 v-if="nossaFe()" />
+            <TextColumn6 v-if="nossaFe()" />
+            <TextColumn7 v-if="nossaLuta()" />
+            <TextColumn8 v-if="nossaLuta()" />
           </p>
         </div>
       </div>
@@ -40,15 +45,18 @@
 </template>
 
 <script>
-import Subtitle1 from "@/views/alem-de-estar/texts/Subtitle.vue";
-import TextColumn1 from "@/views/alem-de-estar/texts/TextColumn1.vue";
-import TextColumn2 from "@/views/alem-de-estar/texts/TextColumn2.vue";
-import Subtitle2 from "@/views/alem-do-som/texts/Subtitle.vue";
-import TextColumn3 from "@/views/alem-do-som/texts/TextColumn1.vue";
-import TextColumn4 from "@/views/alem-do-som/texts/TextColumn2.vue";
-import Subtitle3 from "@/views/alem-do-mar/texts/Subtitle.vue";
-import TextColumn5 from "@/views/alem-do-mar/texts/TextColumn1.vue";
-import TextColumn6 from "@/views/alem-do-mar/texts/TextColumn2.vue";
+import Subtitle1 from "@/views/nossa-casa/texts/Subtitle.vue";
+import TextColumn1 from "@/views/nossa-casa/texts/TextColumn1.vue";
+import TextColumn2 from "@/views/nossa-casa/texts/TextColumn2.vue";
+import Subtitle2 from "@/views/nossa-gente/texts/Subtitle.vue";
+import TextColumn3 from "@/views/nossa-gente/texts/TextColumn1.vue";
+import TextColumn4 from "@/views/nossa-gente/texts/TextColumn2.vue";
+import Subtitle3 from "@/views/nossa-fe/texts/Subtitle.vue";
+import TextColumn5 from "@/views/nossa-fe/texts/TextColumn1.vue";
+import TextColumn6 from "@/views/nossa-fe/texts/TextColumn2.vue";
+import Subtitle4 from "@/views/nossa-luta/texts/Subtitle.vue";
+import TextColumn7 from "@/views/nossa-luta/texts/TextColumn1.vue";
+import TextColumn8 from "@/views/nossa-luta/texts/TextColumn2.vue";
 
 export default {
   name: "TextPages",
@@ -62,20 +70,28 @@ export default {
     Subtitle3,
     TextColumn5,
     TextColumn6,
+    Subtitle4,
+    TextColumn7,
+    TextColumn8,
   },
   methods: {
-    alemDeEstar() {
-      if (this.$route.name === "AlemDeEstar") {
+    nossaCasa() {
+      if (this.$route.name === "NossaCasa") {
         return true;
       }
     },
-    alemDoSom() {
-      if (this.$route.name === "AlemDoSom") {
+    nossaGente() {
+      if (this.$route.name === "NossaGente") {
         return true;
       }
     },
-    alemDoMar() {
-      if (this.$route.name === "AlemDoMar") {
+    nossaFe() {
+      if (this.$route.name === "NossaFe") {
+        return true;
+      }
+    },
+    nossaLuta() {
+      if (this.$route.name === "NossaLuta") {
         return true;
       }
     },

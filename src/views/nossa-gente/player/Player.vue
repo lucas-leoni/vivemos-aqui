@@ -39,8 +39,8 @@
 </template>
 
 <script>
-import TextPlayer from "@/views/alem-do-som/player/TextPlayer.vue";
-import TextPlayer2 from "@/views/alem-do-som/player/TextPlayer2.vue";
+import TextPlayer from "@/views/nossa-gente/player/TextPlayer.vue";
+import TextPlayer2 from "@/views/nossa-gente/player/TextPlayer2.vue";
 
 export default {
   name: "Player",

@@ -2,21 +2,21 @@
   <div>
     <NavbarFixed />
     <Videos />
-    <Texts />
+    <TextPages />
   </div>
 </template>
 
 <script>
 import NavbarFixed from "@/components/commom/NavbarFixed.vue";
-import Videos from "@/views/alem-das-memorias/videos/Videos.vue";
-import Texts from "@/views/alem-das-memorias/texts/Texts.vue";
+import Videos from "@/views/nossa-luta/videos/Videos.vue";
+import TextPages from "@/components/commom/TextPages.vue";
 
 export default {
-  name: "AlemDasMemoriasView",
+  name: "NossaLutaView",
   components: {
     NavbarFixed,
     Videos,
-    Texts,
+    TextPages,
   },
 };
 </script>

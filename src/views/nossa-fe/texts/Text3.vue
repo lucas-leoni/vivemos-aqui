@@ -29,9 +29,9 @@
 </template>
 
 <script>
-import Subtitle1 from "@/views/alem-do-mar/texts/Subtitle5.vue";
-import TextColumn1 from "@/views/alem-do-mar/texts/TextColumn7.vue";
-import TextColumn2 from "@/views/alem-do-mar/texts/TextColumn8.vue";
+import Subtitle1 from "@/views/nossa-fe/texts/Subtitle5.vue";
+import TextColumn1 from "@/views/nossa-fe/texts/TextColumn7.vue";
+import TextColumn2 from "@/views/nossa-fe/texts/TextColumn8.vue";
 
 export default {
   name: "Text2",

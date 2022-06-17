@@ -1,7 +1,5 @@
 <template>
   <span>
-    <br />
-    <br />
     O que não é natural é que ele se perca. Arte da cultura popular ou
     espetáculo folclórico para turista ver? A classificação que divide opiniões
     entre os estudiosos, ganha sua própria maneira de existir (ou resistir)

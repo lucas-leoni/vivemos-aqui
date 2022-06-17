@@ -1,17 +1,17 @@
 <template>
   <div class="video-page-top">
-    <Video1 v-if="alemDeEstar()" />
-    <Video2 v-if="alemDoSom()" />
-    <Video3 v-if="alemDoMar()" />
-    <Video4 v-if="alemDasMemorias()" />
+    <Video1 v-if="nossaCasa()" />
+    <Video2 v-if="nossaGente()" />
+    <Video3 v-if="nossaFe()" />
+    <Video4 v-if="nossaLuta()" />
   </div>
 </template>
 
 <script>
-import Video1 from "@/views/alem-de-estar/videos/Video.vue";
-import Video2 from "@/views/alem-do-som/videos/Video.vue";
-import Video3 from "@/views/alem-do-mar/videos/Video.vue";
-import Video4 from "@/views/alem-das-memorias/videos/Video.vue";
+import Video1 from "@/views/nossa-casa/videos/Video.vue";
+import Video2 from "@/views/nossa-gente/videos/Video.vue";
+import Video3 from "@/views/nossa-fe/videos/Video.vue";
+import Video4 from "@/views/nossa-luta/videos/Video.vue";
 
 export default {
   name: "VideoPages",
@@ -22,23 +22,23 @@ export default {
     Video4,
   },
   methods: {
-    alemDeEstar() {
-      if (this.$route.name === "AlemDeEstar") {
+    nossaCasa() {
+      if (this.$route.name === "NossaCasa") {
         return true;
       }
     },
-    alemDoSom() {
-      if (this.$route.name === "AlemDoSom") {
+    nossaGente() {
+      if (this.$route.name === "NossaGente") {
         return true;
       }
     },
-    alemDoMar() {
-      if (this.$route.name === "AlemDoMar") {
+    nossaFe() {
+      if (this.$route.name === "NossaFe") {
         return true;
       }
     },
-    alemDasMemorias() {
-      if (this.$route.name === "AlemDasMemorias") {
+    nossaLuta() {
+      if (this.$route.name === "NossaLuta") {
         return true;
       }
     },

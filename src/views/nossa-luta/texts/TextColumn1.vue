@@ -10,12 +10,7 @@
     balanço do mar. Ter um barco é um privilégio do qual não podem se orgulhar
     todos os pescadores da Ilha do Superagui. Vida dura no mar, a vida também é
     dura em todo o percurso para conseguir o dinheiro para comprar a embarcação,
-    e essa satisfação nem todos têm. <br />
-    <br />
-    O barco de Julio terá o nome de seus filhos, porque é assim que ele pode
-    homenagear aqueles que tanto ama. Mas garante que não quer esse futuro para
-    os pequenos. Quer dar condições para o estudo, para uma vida longe da
-    dificuldade que é ser pescador. A ele, essa possibilidade nem foi cogitada.
+    e essa satisfação nem todos têm.
   </span>
 </template>
 

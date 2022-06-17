@@ -25,8 +25,8 @@
 </template>
 
 <script>
-import TextColumn1 from "@/views/alem-do-mar/texts/TextColumn9.vue";
-import TextColumn2 from "@/views/alem-do-mar/texts/TextColumn10.vue";
+import TextColumn1 from "@/views/nossa-fe/texts/TextColumn9.vue";
+import TextColumn2 from "@/views/nossa-fe/texts/TextColumn10.vue";
 
 export default {
   name: "Text4",

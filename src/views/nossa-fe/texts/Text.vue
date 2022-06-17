@@ -16,13 +16,13 @@
           </p>
         </div>
         <div id="coluna-mobile" class="col text-white">
-          <p class="text-justify">
+          <p>
             <Subtitle1 />
           </p>
           <p class="text-justify my-4">
             <TextColumn1 />
           </p>
-          <p class="text-justify">
+          <p>
             <Subtitle2 />
           </p>
           <p class="text-justify my-4">
@@ -40,11 +40,11 @@
 </template>
 
 <script>
-import Subtitle1 from "@/views/alem-do-mar/texts/Subtitle2.vue";
-import Subtitle2 from "@/views/alem-do-mar/texts/Subtitle3.vue";
-import TextColumn1 from "@/views/alem-do-mar/texts/TextColumn3.vue";
-import TextColumn2 from "@/views/alem-do-mar/texts/TextColumn4.vue";
-import Subtitle3 from "@/views/alem-do-mar/texts/Subtitle4.vue";
+import Subtitle1 from "@/views/nossa-fe/texts/Subtitle2.vue";
+import Subtitle2 from "@/views/nossa-fe/texts/Subtitle3.vue";
+import TextColumn1 from "@/views/nossa-fe/texts/TextColumn3.vue";
+import TextColumn2 from "@/views/nossa-fe/texts/TextColumn4.vue";
+import Subtitle3 from "@/views/nossa-fe/texts/Subtitle4.vue";
 
 export default {
   name: "TextView",

@@ -39,37 +39,37 @@
           <li class="nav-item px-3">
             <router-link
               @click.native="scrollToTop()"
-              to="/alem-de-estar"
-              v-bind:id="alemDeEstarBorder()"
+              to="/nossa-casa"
+              v-bind:id="nossaCasaBorder()"
               class="nav-link"
-              >ALÉM DE ESTAR
+              >NOSSA CASA
             </router-link>
           </li>
           <li class="nav-item px-3">
             <router-link
               @click.native="scrollToTop()"
-              to="/alem-do-som"
-              v-bind:id="alemDoSomBorder()"
+              to="/nossa-gente"
+              v-bind:id="nossaGenteBorder()"
               class="nav-link"
-              >ALÉM DO SOM</router-link
+              >NOSSA GENTE</router-link
             >
           </li>
           <li class="nav-item px-3">
             <router-link
               @click.native="scrollToTop()"
-              to="/alem-do-mar"
-              v-bind:id="alemDoMarBorder()"
+              to="/nossa-fe"
+              v-bind:id="nossaFeBorder()"
               class="nav-link"
-              >ALÉM DO MAR</router-link
+              >NOSSA FÉ</router-link
             >
           </li>
           <li class="nav-item px-3">
             <router-link
               @click.native="scrollToTop()"
-              to="alem-das-memorias"
-              v-bind:id="alemDasMemoriasBorder()"
+              to="/nossa-luta"
+              v-bind:id="nossaLutaBorder()"
               class="nav-link"
-              >ALÉM DAS MEMÓRIAS</router-link
+              >NOSSA LUTA</router-link
             >
           </li>
           <li class="nav-item px-3">
@@ -91,23 +91,23 @@
 export default {
   name: "NavbarFixed",
   methods: {
-    alemDeEstarBorder() {
-      if (this.$route.name === "AlemDeEstar") {
+    nossaCasaBorder() {
+      if (this.$route.name === "NossaCasa") {
         return "border";
       }
     },
-    alemDoSomBorder() {
-      if (this.$route.name === "AlemDoSom") {
+    nossaGenteBorder() {
+      if (this.$route.name === "NossaGente") {
         return "border";
       }
     },
-    alemDoMarBorder() {
-      if (this.$route.name === "AlemDoMar") {
+    nossaFeBorder() {
+      if (this.$route.name === "NossaFe") {
         return "border";
       }
     },
-    alemDasMemoriasBorder() {
-      if (this.$route.name === "AlemDasMemorias") {
+    nossaLutaBorder() {
+      if (this.$route.name === "NossaLuta") {
         return "border";
       }
     },
@@ -135,6 +135,52 @@ export default {
 }
 .navbar {
   padding-bottom: 0rem;
+}
+@media (min-width: 1241px) and (max-width: 1723px) {
+  .col-5 {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+  .col-7 {
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+}
+@media (min-width: 1053px) and (max-width: 1240px) {
+  nav {
+    flex-direction: column;
+  }
+  .col-7 {
+    max-width: none;
+  }
+  .col-5 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+  #navbarNav {
+    justify-content: center !important;
+  }
+}
+@media (min-width: 993px) and (max-width: 1052px) {
+  nav {
+    flex-direction: column;
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+  }
+  .col-7 {
+    max-width: none;
+  }
+  .col-5 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+  #navbarNav {
+    justify-content: center !important;
+  }
 }
 @media (max-width: 992px) {
   .nav-link {
@@ -181,6 +227,19 @@ export default {
   }
   .navbar-light .navbar-nav .nav-link {
     color: white;
+  }
+}
+@media (max-width: 992px) and (min-height: 281px) and (max-height: 414px) {
+  .collapse li {
+    padding: 0.3rem;
+  }
+}
+@media (max-width: 992px) and (max-height: 280px) {
+  .collapse li {
+    padding: 0rem;
+  }
+  .nav-link {
+    padding: 0.35rem 0rem;
   }
 }
 </style>

@@ -43,23 +43,23 @@
             </router-link>
           </li>
           <li class="nav-item px-3">
-            <router-link to="/alem-de-estar" class="nav-link text-white">
-              <b>ALÉM DE ESTAR</b>
+            <router-link to="/nossa-casa" class="nav-link text-white">
+              <b>NOSSA CASA</b>
             </router-link>
           </li>
           <li class="nav-item px-3">
-            <router-link to="/alem-do-som" class="nav-link text-white">
-              <b>ALÉM DO SOM</b>
+            <router-link to="/nossa-gente" class="nav-link text-white">
+              <b>NOSSA GENTE</b>
             </router-link>
           </li>
           <li class="nav-item px-3">
-            <router-link to="/alem-do-mar" class="nav-link text-white">
-              <b>ALÉM DO MAR</b>
+            <router-link to="/nossa-fe" class="nav-link text-white">
+              <b>NOSSA FÉ</b>
             </router-link>
           </li>
           <li class="nav-item px-3">
-            <router-link to="alem-das-memorias" class="nav-link text-white">
-              <b>ALÉM DAS MEMÓRIAS</b>
+            <router-link to="nossa-luta" class="nav-link text-white">
+              <b>NOSSA LUTA</b>
             </router-link>
           </li>
           <li class="nav-item px-3">
@@ -98,6 +98,50 @@ export default {
 .nav-link:hover {
   border-bottom: 3px solid #2fa1e0;
 }
+@media (min-width: 1258px) and (max-width: 1753px) {
+  .col-5 {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+  .col-7 {
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+}
+@media (min-width: 1064px) and (max-width: 1257px) {
+  nav {
+    flex-direction: column;
+  }
+  .col-7 {
+    max-width: none;
+  }
+  .col-5 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+  }
+  #navbarNav {
+    justify-content: center !important;
+  }
+}
+@media (min-width: 993px) and (max-width: 1063px) {
+  nav {
+    flex-direction: column;
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+  }
+  .col-7 {
+    max-width: none;
+  }
+  .col-5 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+  }
+  #navbarNav {
+    justify-content: center !important;
+  }
+}
 @media (max-width: 992px) {
   .navbar {
     top: 15px;
@@ -135,6 +179,26 @@ export default {
   }
   .collapse li {
     padding: 0.938rem;
+  }
+}
+@media (max-width: 992px) and (min-height: 281px) and (max-height: 414px) {
+  .navbar {
+    top: 8px;
+    padding-top: 0rem !important;
+  }
+  .collapse li {
+    padding: 0.3rem;
+  }
+}
+@media (max-width: 992px) and (max-height: 280px) {
+  .navbar {
+    padding-top: 0rem !important;
+  }
+  .collapse li {
+    padding: 0rem;
+  }
+  .nav-link {
+    padding: 0.35rem 0rem;
   }
 }
 </style>
