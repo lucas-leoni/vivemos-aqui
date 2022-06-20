@@ -1,6 +1,5 @@
 <template>
   <div>
-    <div class="overlay"></div>
     <video
       id="video-bg"
       loop=""
@@ -34,16 +33,5 @@ export default {
   background-size: cover;
   -webkit-transition: 1s opacity;
   transition: 1s opacity;
-}
-.overlay {
-  background: url(../../assets/images/overlay.png);
-  opacity: 0.4;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  z-index: 999;
-  width: 100%;
-  height: 100%;
 }
 </style>
