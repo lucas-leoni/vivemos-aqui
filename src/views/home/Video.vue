@@ -30,7 +30,7 @@ export default {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: url(../../assets/images/poster.png) no-repeat;
+  /* background: url(../../assets/images/poster.png) no-repeat; */
   background-size: cover;
   -webkit-transition: 1s opacity;
   transition: 1s opacity;

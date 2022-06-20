@@ -4,14 +4,15 @@
   </div>
 </template>
 
-<style>
-.navbar, h2{
-  font-family: 'KingTrufle';
-}
+<style> 
 .navbar {
+  font-weight: bold;
   font-size: 1.35rem;
 }
-p, em {
+h2{
+  font-family: 'KingTrufle';
+}
+.navbar, p, em {
   font-family: 'Akrobat';
 }
 
