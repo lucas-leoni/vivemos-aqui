@@ -2,11 +2,10 @@
   <video
     autoplay=""
     id="video-bg-page"
-    poster="../../../assets/images/poster-alem-de-estar.png"
     loop=""
     muted=""
   >
-    <source type="video/mp4" src="../../../assets/videos/alem-de-estar.mp4" />
+    <source type="video/mp4" src="../../../assets/videos/nossa-casa.mp4" />
   </video>
 </template>
 

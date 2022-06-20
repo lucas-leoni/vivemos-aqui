@@ -2,11 +2,10 @@
   <video
     autoplay=""
     id="video-bg-page"
-    poster="../../../assets/images/poster-alem-das-memorias.png"
     loop=""
     muted=""
   >
-    <source type="video/mp4" src="../../../assets/videos/alem-das-memorias.mp4" />
+    <source type="video/mp4" src="../../../assets/videos/nossa-luta.mp4" />
   </video>
 </template>
 

@@ -2,7 +2,6 @@
   <div>
     <div class="overlay"></div>
     <video
-      poster="../../assets/images/poster.png"
       id="video-bg"
       loop=""
       muted=""
