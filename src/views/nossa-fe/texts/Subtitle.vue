@@ -1,5 +1,5 @@
 <template>
-  <h2>Superagui: 27 anos de incertezas</h2>
+  <h2>O evangelho presente</h2>
 </template>
 
 <script>

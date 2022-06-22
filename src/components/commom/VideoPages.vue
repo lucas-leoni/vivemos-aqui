@@ -47,27 +47,19 @@ export default {
 </script>
 
 <style scoped>
-#video-bg-page {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 101%;
-  min-height: 101%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  /* background: url(../../assets/images/poster-alem-de-estar.png) no-repeat; */
-  background-size: cover;
-  -webkit-transition: 1s opacity;
-  transition: 1s opacity;
-}
 .video-page-top {
   position: relative;
-  height: 590px;
+  max-height: 90vh;
   display: block;
   overflow: hidden;
   z-index: 1;
+}
+@media (min-width: 993px) and (max-width: 1240px) {
+
+}
+@media (max-width: 500px) {
+  .video-page-top {
+    height: auto;
+  }
 }
 </style>

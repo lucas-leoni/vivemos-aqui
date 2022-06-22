@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-transparent px-5">
     <div class="col-5">
       <router-link to="/">
-        <img src="../../assets/images/logo.png" />
+        <img src="../../assets/images/logo-home.png" />
       </router-link>
     </div>
     <div class="col-7">

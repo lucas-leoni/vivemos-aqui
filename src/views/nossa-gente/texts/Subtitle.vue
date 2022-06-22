@@ -1,5 +1,5 @@
 <template>
-  <h2>O Fandango das gerações</h2>
+  <h2>Guerreiros da noite</h2>
 </template>
 
 <script>

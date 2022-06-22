@@ -1,16 +1,15 @@
 <template>
   <span>
-    Julio Castanho é uma daquelas pessoas que falam sobre a pesca com brilho no
-    olho, especialmente quando reconhecem a conquista que é comprar um barco.
-    Mais do que um instrumento de trabalho, o barco é companhia, é quase um ente
-    querido da família. Porque conquistar um barco é emocionante como ver o
-    nascimento de um filho. É amor e alegria por ter condições melhores de
-    trabalhar e voltar com segurança para casa. É garantia de retornar ao lar e
-    dar um beijo nos filhos e na esposa, e no dia seguinte refazer o caminho no
-    balanço do mar. Ter um barco é um privilégio do qual não podem se orgulhar
-    todos os pescadores da Ilha do Superagui. Vida dura no mar, a vida também é
-    dura em todo o percurso para conseguir o dinheiro para comprar a embarcação,
-    e essa satisfação nem todos têm.
+    Você lembra que lá no primeiro episódio (se você não viu ainda viu,
+    assista), informamos que todas as famílias da comunidade foram incluídas no
+    processo de despejo?
+    <br />
+    <br />
+    Pois é, segundo a advogada popular Cynthia Pinto da Luz, essa medida foi
+    tomada por se tratar de uma ocupação coletiva. “Infelizmente a Justiça
+    reconhece que todos que estão na área de ocupação, independente de serem
+    identificados (como indígenas), são classificados como invasores
+    desconhecidos”, explica. “É uma forma de criminalizar o direito à moradia.”
   </span>
 </template>
 

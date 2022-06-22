@@ -7,13 +7,16 @@
 <style> 
 .navbar {
   font-weight: bold;
-  font-size: 1.35rem;
+  font-size: 1.05rem;
 }
 h2{
   font-family: 'KingTrufle';
 }
 .navbar, p, em {
   font-family: 'Akrobat';
+}
+p, em {
+  font-size: 1.125rem;
 }
 
 @font-face {

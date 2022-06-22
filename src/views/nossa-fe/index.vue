@@ -2,13 +2,15 @@
   <div>
     <NavbarFixed />
     <Videos />
-    <Texts />
+    <TextPages />
+    <!-- <Texts /> -->
   </div>
 </template>
 
 <script>
 import NavbarFixed from "@/components/commom/NavbarFixed.vue";
 import Videos from "@/views/nossa-fe/videos/Videos.vue";
+import TextPages from "@/components/commom/TextPages.vue";
 import Texts from "@/views/nossa-fe/texts/Texts.vue";
 
 export default {
@@ -16,6 +18,7 @@ export default {
   components: {
     NavbarFixed,
     Videos,
+    TextPages,
     Texts,
   },
 };

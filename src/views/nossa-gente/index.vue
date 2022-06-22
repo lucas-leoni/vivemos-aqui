@@ -3,7 +3,7 @@
     <NavbarFixed />
     <Videos />
     <TextPages />
-    <Player />
+    <Box />
     <Carousel />
   </div>
 </template>
@@ -12,7 +12,7 @@
 import NavbarFixed from "@/components/commom/NavbarFixed.vue";
 import Videos from "@/views/nossa-gente/videos/Videos.vue";
 import TextPages from "@/components/commom/TextPages.vue";
-import Player from "@/views/nossa-gente/player/Player.vue";
+import Box from "@/views/nossa-gente/Box.vue";
 import Carousel from "@/views/nossa-gente/Carousel.vue";
 
 export default {
@@ -21,7 +21,7 @@ export default {
     NavbarFixed,
     Videos,
     TextPages,
-    Player,
+    Box,
     Carousel,
   },
 };

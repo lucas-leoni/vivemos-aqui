@@ -1,5 +1,5 @@
 <template>
-  <h2>Meu lugar, minha identidade</h2>
+  <h2>Em busca de um sonho</h2>
 </template>
 
 <script>

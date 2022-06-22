@@ -1,28 +1,75 @@
 <template>
   <span>
-    “Ainda não ‘tamo’ ciente de tudo o que que pode acontecer no final, sabe?
-    ‘Tamo’ batalhando pra descobrir o que é um plano de manejo. Eu sei que é
-    fazer o controle de alguma coisa, né?”, diz Mauro Gonçalves Mendes,
-    presidente da Associação de Moradores da Barra do Superagui, comunidade ao
-    redor do Parque Nacional do Superagui, uma das 886 unidades de conservação
-    do Brasil. <br />
+    Durante a colonização do Brasil pelos portugueses, no século 16, a ordem
+    religiosa dos Jesuítas cumpriu um papel de destaque na organização social da
+    colônia. Enquanto na Europa o objetivo dos jesuítas era evitar o aumento do
+    número de protestantes, em solo brasileiro sua principal função era
+    evangelizar, catequizar e tornar cristãos os indígenas que habitavam estas
+    terras. As missões serviram também para que os jesuítas mudassem os hábitos
+    dos indígenas, a fim de que eles passassem a viver de acordo com a
+    <b>cultura europeia</b>.
     <br />
-    O parque, criado em 1989, está à beira de completar três décadas de
-    existência ainda sem a implementação de seu plano de manejo: documento que
-    orienta as atividades que podem ser realizadas dentro do parque e que, por
-    consequência, interfere no modo de vida tradicional dos moradores da ilha.
-    Segundo o Ministério do Meio Ambiente (MMA), o prazo máximo para a
-    implementação deste documento é de cinco anos após a criação de uma unidade
-    de conservação, uma vez que é ele que determina como se dá o uso dos
-    recursos naturais, ou seja, limita como os moradores farão uso da natureza à
-    sua volta, o que põe em discussão a manutenção do modo de vida tradicional e
-    as fontes de sobrevivência destas pessoas, que retiram da floresta e do mar
-    o seu sustento. <br />
     <br />
-    Neste sentido, a pesca, a agricultura e o extrativismo de subsistência fazem
-    parte das atividades que compõem a identidade de quem vive no Superagui,
-    atividades que deveriam estar sendo contempladas pelo plano de manejo a fim
-    de preservar as práticas
+    Como você viu neste episódio, o evangelho está presente na vida dos Deni.
+    Valdecir relata que a Igreja Batista tem muita influência na aldeia onde
+    eles viviam antes de vir para Joinville.
+    <br />
+    <br />
+    Com origem na Europa, no século 16, as Igrejas Batistas são um movimento do
+    Cristianismo evangélico e uma das mais importantes denominações protestantes
+    do mundo. Os batistas têm uma forte veia missionária e acreditam na salvação
+    mediante a fé, tendo a Bíblia como única autoridade.
+    <br />
+    <br />
+    Uma
+    <a
+      href="https://g1.globo.com/politica/noticia/2020/01/13/50percent-dos-brasileiros-sao-catolicos-31percent-evangelicos-e-10percent-nao-tem-religiao-diz-datafolha.ghtml"
+      >pesquisa do Datafolha</a
+    >
+    publicada em janeiro de 2020, aponta que cerca de 31% da população
+    brasileira é evangélica. Fazendo um recorte por região, a região Norte
+    compreende, proporcionalmente a sua população, a
+    <b>maior concentração de evangélicos do país (39%)</b>. Alguns fatores podem
+    explicar isso, como o déficit de clérigos na região e o isolamento das
+    aldeias indígenas e vilarejos, que são constantemente visitados e
+    “colonizados” por missionários evangélicos.
+    <br />
+    <br />
+    Dispostos a passar dias em viagens de barco em meio à vastidão verde da
+    floresta amazônica, esses missionários têm como objetivo evangelizar essas
+    populações mais afastadas com a palavra de Deus. Geralmente, essas missões
+    catequizadoras também realizam trabalhos filantrópicos, como a doação de
+    cestas básicas.
+    <br />
+    <br />
+    Um grande exemplo desse tipo de catequização é o grupo missionário
+    evangélico
+    <a href="https://novastribosdobrasil.org.br/"
+      >Missão Novas Tribos (MNT) do Brasil</a
+    >, que atua na região do rio Cuniuá, onde parte dos Deni residem, desde
+    1982. A MNT, ou <b>Ethnos 360</b>, como é conhecida mundialmente, é uma
+    organização missionária cristã teologicamente evangélica internacional com
+    sede em Sanford, Flórida, nos Estados Unidos.
+    <br />
+    <br />
+    Fundada em 1942, e com atuação no Brasil desde 1946, a MNT tem o propósito
+    de “impactar e alcançar povos ainda não alcançados com o evangelho de
+    Cristo”. De acordo com o site da organização,
+    <b>164 povos originários brasileiros</b> já foram alcançados por suas ações
+    evangelizadoras.
+    <br />
+    <br />
+    Entretanto, a MNT também está envolvida em diversas
+    <a
+      href="https://oglobo.globo.com/epoca/brasil/evangelho-nas-alturas-24276158"
+      >polêmicas</a
+    >
+    relacionadas ao apagamento das culturas indígenas, exploração de mão-de-obra
+    indígena e surtos de doenças em tribos isoladas. Com um elaborado sistema de
+    treinamento para missionários, uma das principais acusações feitas à MNT é
+    de representar os interesses da política externa dos Estados Unidos nos
+    países onde atua, o que mostra que a catequização colonizadora, feita
+    séculos atrás, ainda acontece.
   </span>
 </template>
 

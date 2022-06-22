@@ -1,5 +1,5 @@
 <template>
-  <h2>No mar, ele nasceu de novo</h2>
+  <h2>Moradia é direito</h2>
 </template>
 
 <script>

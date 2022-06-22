@@ -3,8 +3,8 @@
     <NavbarFixed />
     <Videos />
     <TextPages />
-    <UmaColuna />
-    <Carousel />
+    <Infografico />
+    <Legenda />
   </div>
 </template>
 
@@ -12,8 +12,8 @@
 import NavbarFixed from "@/components/commom/NavbarFixed.vue";
 import Videos from "@/views/nossa-casa/videos/Videos.vue";
 import TextPages from "@/components/commom/TextPages.vue";
-import UmaColuna from "@/views/nossa-casa/UmaColuna.vue";
-import Carousel from "@/views/nossa-casa/Carousel.vue";
+import Infografico from "@/views/nossa-casa/Infografico.vue";
+import Legenda from "@/views/nossa-casa/Legenda.vue";
 
 export default {
   name: "NossaCasaView",
@@ -21,8 +21,8 @@ export default {
     NavbarFixed,
     Videos,
     TextPages,
-    UmaColuna,
-    Carousel,
+    Infografico,
+    Legenda,
   },
 };
 </script>
