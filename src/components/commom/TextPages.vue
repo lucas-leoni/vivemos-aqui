@@ -123,9 +123,9 @@ p {
   #esconder {
     display: none;
   }
-  .col-5 {
+  /* .col-5 {
     display: none;
-  }
+  } */
   .col-10 {
     flex-basis: 0;
     flex-grow: 1;

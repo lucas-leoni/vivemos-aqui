@@ -3,7 +3,7 @@
     <NavbarFixed />
     <Videos />
     <TextPages />
-    <!-- <Texts /> -->
+    <Imagem />
   </div>
 </template>
 
@@ -11,7 +11,7 @@
 import NavbarFixed from "@/components/commom/NavbarFixed.vue";
 import Videos from "@/views/nossa-fe/videos/Videos.vue";
 import TextPages from "@/components/commom/TextPages.vue";
-import Texts from "@/views/nossa-fe/texts/Texts.vue";
+import Imagem from "@/views/nossa-fe/Imagem.vue";
 
 export default {
   name: "NossaFeView",
@@ -19,7 +19,7 @@ export default {
     NavbarFixed,
     Videos,
     TextPages,
-    Texts,
+    Imagem,
   },
 };
 </script>

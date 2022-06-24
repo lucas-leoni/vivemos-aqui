@@ -5,7 +5,7 @@
     >
       <iframe
         class="embed-responsive-item"
-        src="https://www.youtube.com/embed/XRx7ZZW1RBo?rel=0&showinfo=0"
+        src="https://www.youtube.com/embed/lZ94GJjrP4A"
         allowfullscreen
       ></iframe>
     </div>

@@ -1,12 +1,12 @@
 <template>
   <div class="container-fluid p-0">
-    <img src="../../assets/images/infografico.png">
+    <img src="../../assets/images/biblia.jpg">
   </div>
 </template>
 
 <script>
 export default {
-  name: "Infografico",
+  name: 'Imagem',
 }
 </script>
 

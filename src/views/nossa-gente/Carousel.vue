@@ -194,7 +194,7 @@ export default {
 svg {
   fill: black;
 }
-img {
+/* img {
   height: 88.5vh;
-}
+} */
 </style>

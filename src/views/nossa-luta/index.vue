@@ -3,6 +3,8 @@
     <NavbarFixed />
     <Videos />
     <TextPages />
+    <Boxs />
+    <Imagem />
   </div>
 </template>
 
@@ -10,6 +12,8 @@
 import NavbarFixed from "@/components/commom/NavbarFixed.vue";
 import Videos from "@/views/nossa-luta/videos/Videos.vue";
 import TextPages from "@/components/commom/TextPages.vue";
+import Boxs from "@/views/nossa-luta/Boxs.vue";
+import Imagem from "@/views/nossa-luta/Imagem.vue";
 
 export default {
   name: "NossaLutaView",
@@ -17,6 +21,8 @@ export default {
     NavbarFixed,
     Videos,
     TextPages,
+    Boxs,
+    Imagem,
   },
 };
 </script>

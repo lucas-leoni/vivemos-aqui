@@ -136,7 +136,7 @@ export default {
 .navbar {
   padding-bottom: 0rem;
 }
-@media (min-width: 1241px) and (max-width: 1723px) {
+@media (min-width: 993px) and (max-width: 1723px) {
   .col-5 {
     flex: 0 0 16.666667%;
     max-width: 16.666667%;
@@ -146,7 +146,7 @@ export default {
     max-width: 83.333333%;
   }
 }
-@media (min-width: 1053px) and (max-width: 1240px) {
+/* @media (min-width: 1053px) and (max-width: 1240px) {
   nav {
     flex-direction: column;
   }
@@ -162,8 +162,8 @@ export default {
   #navbarNav {
     justify-content: center !important;
   }
-}
-@media (min-width: 993px) and (max-width: 1052px) {
+} */
+/* @media (min-width: 993px) and (max-width: 1052px) {
   nav {
     flex-direction: column;
     padding-left: 0rem !important;
@@ -181,7 +181,7 @@ export default {
   #navbarNav {
     justify-content: center !important;
   }
-}
+} */
 @media (max-width: 992px) {
   .nav-link {
     border: none;
