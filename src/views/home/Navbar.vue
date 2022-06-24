@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-transparent px-5">
-    <div class="col-5">
+    <div class="col-5 d-flex justify-content-center">
       <router-link to="/">
         <img src="../../assets/images/logo-home.png" />
       </router-link>
@@ -31,7 +31,7 @@
           </svg>
         </span>
       </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item px-3">
             <router-link
@@ -85,6 +85,9 @@ export default {
 </script>
 
 <style scoped>
+img {
+  max-width: 100px
+}
 .navbar {
   position: absolute;
   top: 50px;
@@ -93,12 +96,21 @@ export default {
   width: 100%;
 }
 #border {
-  border-bottom: 3px solid #2fa1e0;
+  border-bottom: 3px solid #b41917;
 }
 .nav-link:hover {
-  border-bottom: 3px solid #2fa1e0;
+  border-bottom: 3px solid #b41917;
 }
-@media (min-width: 1258px) and (max-width: 1753px) {
+nav {
+    flex-direction: column;
+  }
+  .col-7 {
+    max-width: none;
+  }
+  .col-5 {
+    padding-bottom: 0rem;
+  }
+/* @media (min-width: 1258px) and (max-width: 1753px) {
   .col-5 {
     flex: 0 0 16.666667%;
     max-width: 16.666667%;
@@ -107,7 +119,7 @@ export default {
     flex: 0 0 83.333333%;
     max-width: 83.333333%;
   }
-}
+} */
 @media (min-width: 1064px) and (max-width: 1257px) {
   nav {
     flex-direction: column;
@@ -118,7 +130,6 @@ export default {
   .col-5 {
     display: flex;
     justify-content: center;
-    padding-bottom: 2rem;
   }
   #navbarNav {
     justify-content: center !important;
@@ -136,16 +147,16 @@ export default {
   .col-5 {
     display: flex;
     justify-content: center;
-    padding-bottom: 2rem;
   }
-  #navbarNav {
+  /* #navbarNav {
     justify-content: center !important;
-  }
+  } */
 }
 @media (max-width: 992px) {
   .navbar {
     top: 15px;
     padding: 0.5rem 0rem 0.5rem 0rem !important;
+    flex-direction: row;
   }
   svg {
     fill: white;
@@ -159,7 +170,7 @@ export default {
     position: absolute;
     background: #282828;
     background: rgba(40, 40, 40, 0.9);
-    width: 125%;
+    /* width: 25%; */
     top: 100%;
     right: 7%;
     margin: 0px;
@@ -169,6 +180,11 @@ export default {
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
+    padding-right: 2rem;
+  }
+  .col-5 {
+    justify-content: start !important;
+    padding-left: 1.5rem;
   }
   .collapse {
     justify-content: center;

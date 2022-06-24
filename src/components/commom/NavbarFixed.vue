@@ -124,14 +124,17 @@ export default {
 </script>
 
 <style scoped>
+img {
+  max-width: 100px;
+}
 .nav-link {
   border-bottom: 3px solid white;
 }
 #border {
-  border-bottom: 3px solid #2fa1e0;
+  border-bottom: 3px solid #b41917;
 }
 .nav-link:hover {
-  border-bottom: 3px solid #2fa1e0;
+  border-bottom: 3px solid #b41917;
 }
 .navbar {
   padding-bottom: 0rem;
@@ -203,7 +206,7 @@ export default {
     position: absolute;
     background: #282828;
     background: rgba(40, 40, 40, 0.9);
-    width: 125%;
+    /* width: 125%; */
     top: 100%;
     right: 8%;
     margin: 0px;
