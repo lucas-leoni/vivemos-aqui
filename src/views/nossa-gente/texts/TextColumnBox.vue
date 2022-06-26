@@ -2,7 +2,11 @@
   <span>
     <p>
       A palavra “indígena” significa "originário, aquele que está ali antes dos
-      outros" e valoriza a diversidade de cada povo.
+      outros" e valoriza a diversidade de cada povo. Por isso, é inadequado o
+      uso da expressão <b>“não civilizado”</b> para se dirigir aos povos
+      indígenas e suas culturas, tendo em vista que, comumente, o parâmetro
+      utilizado para afirmar o que é ou não civilizado é um parâmetro racista e
+      eurocêntrico.
     </p>
     <p>
       Os povos indígenas do Brasil compreendem um grande número de diferentes

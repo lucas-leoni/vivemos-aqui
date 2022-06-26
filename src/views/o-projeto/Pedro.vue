@@ -7,7 +7,7 @@
             <h2>Sobre nós</h2>
             <p>
               Este webdocumentário foi produzido pelos estudantes de Jornalismo
-              Pedro Novais e Kevin Eduardo para a disciplina Projeto
+              Pedro Novais e Kevin Eduardo para a disciplina de Projeto
               Experimental da Faculdade Ielusc, em parceria com Noah Rosa
               (Publicidade e Propaganda) e Lucas Leoni (Sistemas para Internet),
               com orientação da professora Kérley Winques.
