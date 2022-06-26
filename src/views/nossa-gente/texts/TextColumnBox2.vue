@@ -13,6 +13,12 @@
       n.º 1775/96. Este é o tipo de território que as tribos Deni vivem.
     </p>
     <p>
+      Por isso, é inadequado o uso da expressão <b>“não civilizado”</b> para se
+      dirigir aos povos indígenas e suas culturas, tendo em vista que,
+      comumente, o parâmetro utilizado para afirmar o que é ou não civilizado é
+      um parâmetro racista e eurocêntrico.
+    </p>
+    <p>
       <b>Reservas Indígenas:</b> são terras doadas por terceiros, adquiridas
       e/ou desapropriadas pela União e que se destinam à posse permanente dos
       povos indígenas. Também pertencem ao patrimônio da União e não

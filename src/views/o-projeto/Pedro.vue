@@ -2,6 +2,13 @@
   <div>
     <div class="container px-5 pt-5 pb-4">
       <h2>Sobre nós</h2>
+      <p>
+        Este webdocumentário foi produzido pelos estudantes de Jornalismo Pedro
+        Novais e Kevin Eduardo para a disciplina Projeto Experimental da
+        Faculdade Ielusc, em parceria com Noah Rosa (Publicidade e Propaganda) e
+        Lucas Leoni (Sistemas para Internet), com orientação da professora
+        Kérley Winques.
+      </p>
     </div>
     <div class="container-fluid p-0">
       <img src="../../assets/images/pedro.png" />

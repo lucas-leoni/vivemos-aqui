@@ -3,7 +3,7 @@
     <p>
       A pandemia da Covid-19 afetou milhares de famílias brasileiras. Com a
       família de Thaynã Santana Sampaio de Araújo e Dorval Pereira Tavares não
-      foi diferente. O casal, que é indígena — da etnia Deni — decidiu deixar a
+      foi diferente. O casal, que é indígena (etnia Deni), decidiu deixar a
       terra natal, Manaus, em 2021, por conta do estrago que a doença causou no
       estado.
     </p>
