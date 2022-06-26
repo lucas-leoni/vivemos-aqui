@@ -23,7 +23,7 @@
       >
       da Organização das Nações Unidas (ONU) para a defesa dos indígenas. Mesmo
       na época aceitando, o governo não cumpriu nenhuma delas, conforme a
-      avaliação de mais de cem entidades de organizações indígenas,
+      avaliação de mais de 100 entidades de organizações indígenas,
       indigenistas, ambientalistas e de direitos humanos.
     </p>
     <p>
@@ -54,15 +54,23 @@
       referências como defensores dos direitos indígenas.
     </p>
     <p>
-      Além disso, no mesmo mês, os funcionários pediram a renúncia do atual
-      presidente da Funai, Marcelo Xavier. Eles acusam Xavier de promover uma
-      gestão anti-indígena e anti-indigenista.
+      Também em junho, os funcionários pediram a renúncia Xavier (atual
+      presidente da Funai). Eles acusam-no de promover uma gestão anti-indígena
+      e anti-indigenista.
     </p>
     <p>
       O órgão também tem passado por um processo de militarização. Das 39
       coordenadorias regionais, 21 são chefiadas por militares ou policiais.
     </p>
-    <em>Fontes: UOL, Jornal Nacional, O Globo, Metropolos</em>
+    <em>Fontes: UOL, Jornal Nacional, O Globo, Metrópoles</em>
+    <p class="mt-3">
+      Antes que você vá embora…
+      <a href="https://linklist.bio/vivemosaqui"
+        ><b>aqui tem um banco de dados</b></a
+      >
+      com todos os materiais que saíram na imprensa sobre o caso dos Deni. Esse
+      banco também será alimentando com atualizações da situação.
+    </p>
   </span>
 </template>
 
