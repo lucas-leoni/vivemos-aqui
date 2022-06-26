@@ -16,7 +16,7 @@ h2{
   font-family: 'Akrobat';
 }
 p, em {
-  font-size: 1.125rem;
+  font-size: 1.188rem;
 }
 
 @font-face {

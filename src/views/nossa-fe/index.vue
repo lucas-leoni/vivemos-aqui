@@ -5,7 +5,7 @@
     <Videos />
     <TextPages />
     <Imagem />
-    <ProximoCapitulo />
+    <Capitulos />
   </div>
 </template>
 
@@ -15,7 +15,7 @@ import NavbarFixed from "@/components/commom/NavbarFixed.vue";
 import Videos from "@/views/nossa-fe/videos/Videos.vue";
 import TextPages from "@/components/commom/TextPages.vue";
 import Imagem from "@/views/nossa-fe/Imagem.vue";
-import ProximoCapitulo from "@/components/commom/ProximoCapitulo.vue";
+import Capitulos from "@/components/commom/Capitulos.vue";
 
 export default {
   name: "NossaFeView",
@@ -25,7 +25,7 @@ export default {
     Videos,
     TextPages,
     Imagem,
-    ProximoCapitulo,
+    Capitulos,
   },
 };
 </script>

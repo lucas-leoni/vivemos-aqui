@@ -6,7 +6,7 @@
     <Pedro />
     <Kevin />
     <Agregados />
-    <ProximoCapitulo />
+    <Capitulos />
   </div>
 </template>
 
@@ -17,7 +17,7 @@ import Imagem1 from "@/views/o-projeto/imagens/Imagem1.vue";
 import Pedro from "@/views/o-projeto/Pedro.vue";
 import Kevin from "@/views/o-projeto/Kevin.vue";
 import Agregados from "@/views/o-projeto/Agregados.vue";
-import ProximoCapitulo from "@/components/commom/ProximoCapitulo.vue";
+import Capitulos from "@/components/commom/Capitulos.vue";
 
 export default {
   name: "OProjetoView",
@@ -28,7 +28,7 @@ export default {
     Pedro,
     Kevin,
     Agregados,
-    ProximoCapitulo,
+    Capitulos,
   },
 };
 </script>

@@ -6,7 +6,7 @@
     <TextPages />
     <Boxs />
     <Imagem />
-    <ProximoCapitulo />
+    <Capitulos />
   </div>
 </template>
 
@@ -17,7 +17,7 @@ import Videos from "@/views/nossa-luta/videos/Videos.vue";
 import TextPages from "@/components/commom/TextPages.vue";
 import Boxs from "@/views/nossa-luta/Boxs.vue";
 import Imagem from "@/views/nossa-luta/Imagem.vue";
-import ProximoCapitulo from "@/components/commom/ProximoCapitulo.vue";
+import Capitulos from "@/components/commom/Capitulos.vue";
 
 export default {
   name: "NossaLutaView",
@@ -28,7 +28,7 @@ export default {
     TextPages,
     Boxs,
     Imagem,
-    ProximoCapitulo,
+    Capitulos,
   },
 };
 </script>

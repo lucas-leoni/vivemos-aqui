@@ -1,12 +1,12 @@
 <template>
   <div>
-    <div class="container px-5">
+    <div class="container-fluid p-0">
       <img src="../../assets/images/kevin.png" />
     </div>
     <div class="container px-5 py-5">
       <p>
-        Kevin Eduardo é estudante de Jornalismo, redator — e de vez em quando
-        fotojornalista e documentarista. Gosta de estar com gente.
+        <b>Kevin Eduardo</b> é estudante de Jornalismo, redator — e de vez em
+        quando fotojornalista e documentarista. Gosta de estar com gente.
       </p>
       <p>
         “Finalizar a faculdade com esse projeto me deixa muito orgulhoso.

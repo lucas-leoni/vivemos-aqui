@@ -1,15 +1,14 @@
 <template>
-  <div class="container pt-5 pb-3">
+  <div class="container pt-5 pb-4">
     <div v-if="proximoSozinho()" class="col d-flex justify-content-end">
       <router-link
         @click.native="scrollToTop()"
         :to="rotaProximo()"
         class="nav-link text-dark p-0"
       >
-        <h2 class="m-0">
+        <h2 id="proximo" class="m-0">
           Próximo capítulo <i class="bi bi-arrow-right-square-fill"></i>
         </h2>
-        <hr />
       </router-link>
     </div>
     <div v-if="ambos()" class="col d-flex justify-content-between">
@@ -19,10 +18,9 @@
         :to="rotaAnterior()"
         class="nav-link text-dark p-0"
       >
-        <h2 class="m-0">
+        <h2 id="anterior" class="m-0">
           <i class="bi bi-arrow-left-square-fill"></i> Capítulo anterior
         </h2>
-        <hr />
       </router-link>
       <router-link
         v-if="proximo()"
@@ -30,10 +28,9 @@
         :to="rotaProximo()"
         class="nav-link text-dark p-0"
       >
-        <h2 class="m-0">
+        <h2 id="proximo" class="m-0">
           Próximo capítulo <i class="bi bi-arrow-right-square-fill"></i>
         </h2>
-        <hr />
       </router-link>
       <router-link
         v-if="equipe()"
@@ -41,10 +38,9 @@
         :to="rotaProximo()"
         class="nav-link text-dark p-0"
       >
-        <h2 class="m-0">
+        <h2 id="equipe" class="m-0">
           Conheça a equipe <i class="bi bi-arrow-right-square-fill"></i>
         </h2>
-        <hr />
       </router-link>
     </div>
     <div v-if="anteriorSozinho()" class="col d-flex justify-content-start">
@@ -53,10 +49,9 @@
         :to="rotaAnterior()"
         class="nav-link text-dark p-0"
       >
-        <h2 class="m-0">
+        <h2 id="anterior" class="m-0">
           <i class="bi bi-arrow-left-square-fill"></i> Capítulo Anterior
         </h2>
-        <hr />
       </router-link>
     </div>
   </div>
@@ -64,7 +59,7 @@
 
 <script>
 export default {
-  name: "ProximoCapitulo",
+  name: "Capitulos",
   methods: {
     rotaProximo() {
       if (this.$route.name === "NossaCasa") {
@@ -144,9 +139,52 @@ export default {
 </script>
 
 <style scoped>
-hr {
-  border-color: #698e1c;
-  border-width: 0.188rem;
-  max-width: 3.125rem;
+#proximo:hover, #equipe:hover {
+  color: #1e3b1d;
+  /* color: #698e1c; */
+}
+#anterior:hover {
+  color: #b41917;
+  /* color: #698e1c; */
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  h2 {
+    font-size: 1.9rem;
+  }
+  .container {
+    max-width: none;
+  }
+}
+@media (min-width: 631px) and (max-width: 767px) {
+  h2 {
+    font-size: 1.7rem;
+  }
+  .container {
+    max-width: none;
+  }
+}
+@media (min-width: 500px) and (max-width: 630px) {
+  h2 {
+    font-size: 1.4rem;
+  }
+  .container {
+    max-width: none;
+  }
+}
+@media (min-width: 281px) and (max-width: 499px) {
+  h2 {
+    font-size: 1rem;
+  }
+  .container {
+    max-width: none;
+  }
+}
+@media (max-width: 280px) {
+  h2 {
+    font-size: 0.7rem;
+  }
+  .container {
+    max-width: none;
+  }
 }
 </style>

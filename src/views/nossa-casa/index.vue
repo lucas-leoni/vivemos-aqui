@@ -6,7 +6,7 @@
     <TextPages />
     <Infografico />
     <Legenda />
-    <ProximoCapitulo />
+    <Capitulos />
   </div>
 </template>
 
@@ -17,7 +17,7 @@ import Videos from "@/views/nossa-casa/videos/Videos.vue";
 import TextPages from "@/components/commom/TextPages.vue";
 import Infografico from "@/views/nossa-casa/Infografico.vue";
 import Legenda from "@/views/nossa-casa/Legenda.vue";
-import ProximoCapitulo from "@/components/commom/ProximoCapitulo.vue";
+import Capitulos from "@/components/commom/Capitulos.vue";
 
 export default {
   name: "NossaCasaView",
@@ -28,7 +28,7 @@ export default {
     TextPages,
     Infografico,
     Legenda,
-    ProximoCapitulo,
+    Capitulos,
   },
 };
 </script>

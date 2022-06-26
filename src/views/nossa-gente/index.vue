@@ -6,7 +6,7 @@
     <TextPages />
     <Box />
     <Carousel />
-    <ProximoCapitulo />
+    <Capitulos />
   </div>
 </template>
 
@@ -17,7 +17,7 @@ import Videos from "@/views/nossa-gente/videos/Videos.vue";
 import TextPages from "@/components/commom/TextPages.vue";
 import Box from "@/views/nossa-gente/Box.vue";
 import Carousel from "@/views/nossa-gente/Carousel.vue";
-import ProximoCapitulo from "@/components/commom/ProximoCapitulo.vue";
+import Capitulos from "@/components/commom/Capitulos.vue";
 
 export default {
   name: "NossaGenteView",
@@ -28,7 +28,7 @@ export default {
     TextPages,
     Box,
     Carousel,
-    ProximoCapitulo,
+    Capitulos,
   },
 };
 </script>
