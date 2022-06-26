@@ -167,7 +167,6 @@ img {
     position: absolute;
     background: #282828;
     background: rgba(40, 40, 40, 0.9);
-    /* width: 125%; */
     top: 100%;
     right: 8%;
     margin: 0px;

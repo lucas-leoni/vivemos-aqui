@@ -2,14 +2,14 @@
   <div class="bg">
     <div class="container text-white py-5 px-5">
       <div class="d-flex justify-content-center flex-column">
-        <div class="row justify-content-between">
-          <div class="col">
+        <div class="row justify-content-center">
+          <div class="col-8">
             <Subtitle1 />
           </div>
-          <div id="esconder" class="col"></div>
+          <!-- <div id="esconder" class="col"></div> -->
         </div>
-        <div class="row justify-content-between mt-3">
-          <div class="col">
+        <div class="row justify-content-center mt-3">
+          <div class="col-8">
             <p>
               <TextColumn1 />
             </p>
@@ -38,9 +38,6 @@ export default {
   background-color: #b41917;
 }
 @media (max-width: 992px) {
-  #esconder {
-    display: none;
-  }
   .col-10 {
     flex-basis: 0;
     flex-grow: 1;

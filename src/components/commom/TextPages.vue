@@ -2,17 +2,17 @@
   <div class="div">
     <div class="container pt-5 pb-3 px-5">
       <div class="d-flex justify-content-center flex-column">
-        <div class="row justify-content-between">
-          <div class="col">
+        <div class="row justify-content-center">
+          <div class="col-8">
             <Subtitle1 v-if="nossaCasa()" />
             <Subtitle2 v-if="nossaGente()" />
             <Subtitle3 v-if="nossaFe()" />
             <Subtitle4 v-if="nossaLuta()" />
           </div>
-          <div id="esconder" class="col"></div>
+          <!-- <div id="esconder" class="col"></div> -->
         </div>
-        <div class="row justify-content-between mt-3">
-          <div class="col">
+        <div class="row justify-content-center mt-3">
+          <div class="col-8">
             <p>
               <TextColumn1 v-if="nossaCasa()" />
               <TextColumn3 v-if="nossaGente()" />
@@ -26,8 +26,8 @@
     <Imagem v-if="nossaCasa()" />
     <div v-if="nossaCasa()" class="container py-3 px-5">
       <div class="d-flex justify-content-center flex-column">
-        <div class="row justify-content-between mt-3">
-          <div class="col">
+        <div class="row justify-content-center mt-3">
+          <div class="col-8">
             <p>
               <TextColumn2 />
             </p>
@@ -94,14 +94,6 @@ p {
   line-height: 1.9;
 }
 @media (max-width: 992px) {
-  #esconder {
-    display: none;
-  }
-  .col-10 {
-    flex-basis: 0;
-    flex-grow: 1;
-    max-width: 100%;
-  }
   .flex-column {
     padding: 0px !important;
   }
