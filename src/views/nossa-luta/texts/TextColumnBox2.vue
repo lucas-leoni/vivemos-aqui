@@ -63,14 +63,6 @@
       coordenadorias regionais, 21 são chefiadas por militares ou policiais.
     </p>
     <em>Fontes: UOL, Jornal Nacional, O Globo, Metrópoles</em>
-    <p class="mt-3">
-      Antes que você vá embora…
-      <a href="https://linklist.bio/vivemosaqui"
-        ><b>aqui tem um banco de dados</b></a
-      >
-      com todos os materiais que saíram na imprensa sobre o caso dos Deni. Esse
-      banco também será alimentando com atualizações da situação.
-    </p>
   </span>
 </template>
 

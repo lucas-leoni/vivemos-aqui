@@ -11,6 +11,16 @@
       </p>
     </div>
     <Box2 />
+    <div class="container px-5 py-5">
+      <p>
+        Antes que você vá embora…
+        <a href="https://linklist.bio/vivemosaqui"
+          ><b>aqui tem um banco de dados</b></a
+        >
+        com todos os materiais que saíram na imprensa sobre o caso dos Deni.
+        Esse banco também será alimentando com atualizações da situação.
+      </p>
+    </div>
   </div>
 </template>
 
@@ -28,6 +38,11 @@ export default {
 </script>
 
 <style scoped>
+a {
+  color: #b41917;
+  text-decoration: underline;
+  font-weight: bold;
+}
 @media (max-width: 992px) {
   .col-10 {
     flex-basis: 0;
