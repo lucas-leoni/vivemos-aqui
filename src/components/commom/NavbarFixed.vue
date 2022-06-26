@@ -127,9 +127,6 @@ export default {
 img {
   max-height: 3rem;
 }
-/* img {
-  max-width: 100px;
-} */
 .nav-link {
   border-bottom: 3px solid white;
 }
@@ -142,9 +139,6 @@ img {
 .navbar {
   padding: 0rem 3rem 0rem 3rem;
 }
-/* .navbar {
-  padding-bottom: 0rem;
-} */
 @media (min-width: 993px) and (max-width: 1723px) {
   .col-5 {
     flex: 0 0 16.666667%;
@@ -155,52 +149,10 @@ img {
     max-width: 83.333333%;
   }
 }
-/* @media (min-width: 1053px) and (max-width: 1240px) {
-  nav {
-    flex-direction: column;
-  }
-  .col-7 {
-    max-width: none;
-  }
-  .col-5 {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-  }
-  #navbarNav {
-    justify-content: center !important;
-  }
-} */
-/* @media (min-width: 993px) and (max-width: 1052px) {
-  nav {
-    flex-direction: column;
-    padding-left: 0rem !important;
-    padding-right: 0rem !important;
-  }
-  .col-7 {
-    max-width: none;
-  }
-  .col-5 {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-  }
-  #navbarNav {
-    justify-content: center !important;
-  }
-} */
 @media (max-width: 992px) {
   .nav-link {
     border: none;
   }
-  /* .navbar {
-    padding: 1rem 0rem 0.5rem 0rem !important;
-  } */
-  /* .navbar {
-    padding: 0.5rem 0rem 0rem 0rem !important;
-  } */
   svg {
     fill: black;
   }

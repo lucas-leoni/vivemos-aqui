@@ -31,7 +31,10 @@
           </svg>
         </span>
       </button>
-      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <div
+        class="collapse navbar-collapse justify-content-center"
+        id="navbarNav"
+      >
         <ul class="navbar-nav">
           <li class="nav-item px-3">
             <router-link
@@ -86,7 +89,7 @@ export default {
 
 <style scoped>
 img {
-  max-width: 100px
+  max-width: 100px;
 }
 .navbar {
   position: absolute;
@@ -102,24 +105,14 @@ img {
   border-bottom: 3px solid #b41917;
 }
 nav {
-    flex-direction: column;
-  }
-  .col-7 {
-    max-width: none;
-  }
-  .col-5 {
-    padding-bottom: 0rem;
-  }
-/* @media (min-width: 1258px) and (max-width: 1753px) {
-  .col-5 {
-    flex: 0 0 16.666667%;
-    max-width: 16.666667%;
-  }
-  .col-7 {
-    flex: 0 0 83.333333%;
-    max-width: 83.333333%;
-  }
-} */
+  flex-direction: column;
+}
+.col-7 {
+  max-width: none;
+}
+.col-5 {
+  padding-bottom: 0rem;
+}
 @media (min-width: 1064px) and (max-width: 1257px) {
   nav {
     flex-direction: column;
@@ -148,9 +141,6 @@ nav {
     display: flex;
     justify-content: center;
   }
-  /* #navbarNav {
-    justify-content: center !important;
-  } */
 }
 @media (max-width: 992px) {
   .navbar {
@@ -170,7 +160,6 @@ nav {
     position: absolute;
     background: #282828;
     background: rgba(40, 40, 40, 0.9);
-    /* width: 25%; */
     top: 100%;
     right: 7%;
     margin: 0px;

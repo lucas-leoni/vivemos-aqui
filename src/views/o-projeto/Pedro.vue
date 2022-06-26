@@ -1,12 +1,12 @@
 <template>
   <div>
-    <div class="container px-5 py-5">
+    <div class="container px-5 pt-5 pb-4">
       <h2>Sobre nós</h2>
     </div>
     <div class="container-fluid p-0">
       <img src="../../assets/images/pedro.png" />
     </div>
-    <div class="container px-5 py-5">
+    <div class="container px-5 pt-5 pb-4">
       <p>
         <b>Pedro Novais</b> é estudante de Jornalismo, redator, locutor e metido
         a roteirista. Ama música e é apaixonado por filmes e séries.

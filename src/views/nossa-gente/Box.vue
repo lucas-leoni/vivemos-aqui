@@ -62,11 +62,6 @@ export default {
   #esconder {
     display: none;
   }
-  /* .col-10 {
-    flex-basis: 0;
-    flex-grow: 1;
-    max-width: 100%;
-  } */
   .flex-column {
     padding: 0px !important;
   }

@@ -141,11 +141,9 @@ export default {
 <style scoped>
 #proximo:hover, #equipe:hover {
   color: #1e3b1d;
-  /* color: #698e1c; */
 }
 #anterior:hover {
   color: #b41917;
-  /* color: #698e1c; */
 }
 @media (min-width: 768px) and (max-width: 991px) {
   h2 {
