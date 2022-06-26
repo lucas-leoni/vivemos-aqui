@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <div class="bg text-white py-5 px-5">
-      <div class="d-flex justify-content-center flex-column px-5">
+  <div class="bg">
+    <div class="container text-white py-5 px-5">
+      <div class="d-flex justify-content-center flex-column">
         <div class="row justify-content-between">
           <div class="col">
             <Subtitle1 />
@@ -9,8 +9,8 @@
           <div id="esconder" class="col"></div>
         </div>
         <div class="row justify-content-between mt-3">
-          <div class="col-10">
-            <p class="text-justify">
+          <div class="col">
+            <p>
               <TextColumn1 />
             </p>
           </div>

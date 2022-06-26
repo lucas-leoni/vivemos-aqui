@@ -1,5 +1,5 @@
 <template>
-  <div class="container d-flex justify-content-center">
+  <div class="container pt-4 d-flex justify-content-center">
     <em>
       Este infográfico representa apenas alguns núcleos familiares da
       comunidade.

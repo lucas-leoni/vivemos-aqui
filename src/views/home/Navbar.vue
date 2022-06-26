@@ -90,7 +90,7 @@ img {
 }
 .navbar {
   position: absolute;
-  top: 50px;
+  top: 0px;
   left: 0px;
   z-index: 1001;
   width: 100%;
@@ -154,7 +154,7 @@ nav {
 }
 @media (max-width: 992px) {
   .navbar {
-    top: 15px;
+    top: 0px;
     padding: 0.5rem 0rem 0.5rem 0rem !important;
     flex-direction: row;
   }
@@ -199,7 +199,7 @@ nav {
 }
 @media (max-width: 992px) and (min-height: 281px) and (max-height: 414px) {
   .navbar {
-    top: 8px;
+    top: 0px;
     padding-top: 0rem !important;
   }
   .collapse li {

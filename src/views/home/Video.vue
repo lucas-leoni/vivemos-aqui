@@ -36,6 +36,7 @@ export default {
   left: 50%;
   min-width: 101%;
   min-height: 101%;
+  width: 100%;
   width: auto;
   height: auto;
   z-index: -100;

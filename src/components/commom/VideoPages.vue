@@ -1,5 +1,5 @@
 <template>
-  <div class="video-page-top">
+  <div>
     <Video1 v-if="nossaCasa()" />
     <Video2 v-if="nossaGente()" />
     <Video3 v-if="nossaFe()" />
@@ -46,20 +46,3 @@ export default {
 };
 </script>
 
-<style scoped>
-.video-page-top {
-  position: relative;
-  max-height: 90vh;
-  display: block;
-  overflow: hidden;
-  z-index: 1;
-}
-@media (min-width: 993px) and (max-width: 1240px) {
-
-}
-@media (max-width: 500px) {
-  .video-page-top {
-    height: auto;
-  }
-}
-</style>

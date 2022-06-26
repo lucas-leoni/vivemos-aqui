@@ -1,22 +1,14 @@
 <template>
   <div>
     <Box />
-    <div class="bg py-5 px-5">
-      <div class="d-flex justify-content-center flex-column px-5">
-        <div class="row justify-content-between mt-3">
-          <div class="col-10">
-            <p class="text-justify">
-              <span>
-                A advogada também foi crítica às propostas oferecidas pelo
-                prefeito da cidade de Joinville, Adriano Silva, às famílias
-                Deni. Para ela, são “propostas de alguém que nunca viveu uma
-                experiência como essa”, refletindo preconceito e higienismo, por
-                isso não merecem nem ser consideradas.
-              </span>
-            </p>
-          </div>
-        </div>
-      </div>
+    <div class="container px-5 py-5">
+      <p>
+        A advogada também foi crítica às propostas oferecidas pelo prefeito da
+        cidade de Joinville, Adriano Silva, às famílias Deni. Para ela, são
+        “propostas de alguém que nunca viveu uma experiência como essa”,
+        refletindo preconceito e higienismo, por isso não merecem nem ser
+        consideradas.
+      </p>
     </div>
     <Box2 />
   </div>

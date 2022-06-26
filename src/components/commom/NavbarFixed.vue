@@ -125,8 +125,11 @@ export default {
 
 <style scoped>
 img {
-  max-width: 100px;
+  max-height: 3rem;
 }
+/* img {
+  max-width: 100px;
+} */
 .nav-link {
   border-bottom: 3px solid white;
 }
@@ -137,8 +140,11 @@ img {
   border-bottom: 3px solid #b41917;
 }
 .navbar {
-  padding-bottom: 0rem;
+  padding: 0rem 3rem 0rem 3rem;
 }
+/* .navbar {
+  padding-bottom: 0rem;
+} */
 @media (min-width: 993px) and (max-width: 1723px) {
   .col-5 {
     flex: 0 0 16.666667%;
@@ -189,9 +195,12 @@ img {
   .nav-link {
     border: none;
   }
-  .navbar {
+  /* .navbar {
     padding: 1rem 0rem 0.5rem 0rem !important;
-  }
+  } */
+  /* .navbar {
+    padding: 0.5rem 0rem 0rem 0rem !important;
+  } */
   svg {
     fill: black;
   }
