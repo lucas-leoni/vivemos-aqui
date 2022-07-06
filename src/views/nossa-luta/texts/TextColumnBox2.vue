@@ -50,11 +50,11 @@
         href="https://www.cnnbrasil.com.br/nacional/suspeito-confessa-assassinato-de-dom-phillips-e-bruno-pereira-dizem-fontes-da-pf/"
         >mês do assassinato</a
       >
-      do jornalista britânico Dom Philips e do indigenista do Bruna Pereira —
+      do jornalista britânico Dom Philips e do indigenista Bruno Pereira —
       referências como defensores dos direitos indígenas.
     </p>
     <p>
-      Também em junho, os funcionários pediram a renúncia Xavier (atual
+      Também em junho, os funcionários pediram a renúncia de Xavier (atual
       presidente da Funai). Eles acusam-no de promover uma gestão anti-indígena
       e anti-indigenista.
     </p>
