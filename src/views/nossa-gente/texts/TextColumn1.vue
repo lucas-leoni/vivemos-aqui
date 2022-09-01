@@ -2,8 +2,8 @@
   <span>
     <p>
       Guerreiros da Noite. Assim são conhecidos os Deni. Segundo a Apib
-      (Articulação dos Povos Indígenas do Brasil), os Deni fazem parte dos
-      grupos indígenas que vivem na região entre os rios Juruá e Purus, nos
+      (Articulação dos Povos Indígenas do Brasil), os Deni fazem parte das
+      sociedades indígenas que vivem na região entre os rios Juruá e Purus, nos
       municípios de Itamarati, Lábrea, Pauini e Tapauá, no estado do Amazonas.
     </p>
     <p>
