@@ -91,13 +91,13 @@ export default {
 img {
   max-width: 100px;
 }
-.navbar {
+/* .navbar {
   position: absolute;
   top: 0px;
   left: 0px;
   z-index: 1001;
   width: 100%;
-}
+} */
 #border {
   border-bottom: 3px solid #b41917;
 }
